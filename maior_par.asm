@@ -50,5 +50,5 @@ maior_elemento_par:
 	la $a0, msg			# Carregando qual string printar
 	syscall				# Chamada de sistema
 	li $v0, 1			# Carregando instrucao de printar inteiro
-	la $a0, ($s1)			# Carregando qual valor vai printar
+	move $a0, $s1			# Carregando qual valor vai printar
 	syscall				# Chamada de sistema

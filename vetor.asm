@@ -107,18 +107,3 @@ PrintVetor:
 	move $v0, $a3 		# Endereço base da matriz para retorno
 	
 	jr $ra			# Retorna para a rotina chamadora
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-			
-			

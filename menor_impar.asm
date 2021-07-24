@@ -1,7 +1,7 @@
 # ALGORITMO PARA ENCONTRAR O MENOR ELEMENTO IMPAR DO VETOR
 
 .data 
-	vetor: .word 51,7,805,12,0,135,15,20,150,100
+	vetor: .word 51,1,805,12,0,135,15,20,150,100
 	msg: .asciiz "Menor elemento impar: "
 
 .text
